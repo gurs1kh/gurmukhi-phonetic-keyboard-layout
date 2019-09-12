@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.gurmukhi-legacy</string>
+	<string>org.sil.ukelele.keyboardlayout.gurmukhi-phonetic</string>
 	<key>CFBundleName</key>
-	<string>gurmukhi-legacy</string>
+	<string>gurmukhi-phonetic</string>
 	<key>CFBundleVersion</key>
 	<string></string>
-	<key>KLInfo_Gurmukhi - Legacy</key>
+	<key>KLInfo_Gurmukhi - Phonetic</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.gurmukhi-legacy.gurmukhi-legacy</string>
+		<string>org.sil.ukelele.keyboardlayout.gurmukhi-phonetic.gurmukhi-phonetic</string>
 		<key>TISIntendedLanguage</key>
 		<string>pa</string>
 	</dict>
