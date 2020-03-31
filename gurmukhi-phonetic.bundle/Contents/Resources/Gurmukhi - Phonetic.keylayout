@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-09-11 at 20:25 (PDT)-->
-<keyboard group="126" id="-29565" name="Gurmukhi - Phonetic" maxout="2">
+<!--Last edited by Ukelele version 3.3.0.249 on 2020-03-31 at 15:12 (PDT)-->
+<keyboard group="126" id="-23343" name="Gurmukhi - Phonetic" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="984" modifiers="f4"/>
         <layout first="18" last="18" mapSet="16c" modifiers="f4"/>
@@ -148,7 +148,7 @@
             <key code="3" output="ਡ"/>
             <key code="4" output="ਹ"/>
             <key code="5" output="ਗ"/>
-            <key code="6" output="ਜ਼"/>
+            <key code="6" output="ਜ਼"/>
             <key code="7" output="ਣ"/>
             <key code="8" output="ਚ"/>
             <key code="9" output="ਵ"/>
@@ -159,7 +159,7 @@
             <key code="15" output="ਰ"/>
             <key code="16" action="ੇ"/>
             <key code="17" output="ਟ"/>
-            <key code="18" output="੧"/>
+            <key code="18" action="੧"/>
             <key code="19" output="੨"/>
             <key code="20" output="੩"/>
             <key code="21" output="੪"/>
@@ -256,22 +256,22 @@
             <key code="3" output="ਢ"/>
             <key code="4" output="੍ਹ"/>
             <key code="5" output="ਘ"/>
-            <key code="6" output="ਗ਼"/>
+            <key code="6" output="ਗ਼"/>
             <key code="7" output="ਯ"/>
             <key code="8" output="ਛ"/>
             <key code="9" output="ੜ"/>
             <key code="11" output="ਭ"/>
             <key code="12" output="ਥ"/>
             <key code="13" action="ਾਂ"/>
-            <key code="14" output="ਓ"/>
+            <key code="14" action="ਓ"/>
             <key code="15" output="੍ਰ"/>
             <key code="16" action="ੈ"/>
             <key code="17" output="ਠ"/>
             <key code="18" output="!"/>
-            <key code="19" output="@"/>
+            <key code="19" output="ੑ"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
-            <key code="22" output="ਖ਼"/>
+            <key code="22" output="ਖ਼"/>
             <key code="23" output="%"/>
             <key code="24" output="+"/>
             <key code="25" output="("/>
@@ -286,7 +286,7 @@
             <key code="34" action="ੀ"/>
             <key code="35" output="ਫ"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="ਲ਼"/>
+            <key code="37" output="ਲ਼"/>
             <key code="38" output="ਝ"/>
             <key code="39" output="&#x0022;"/>
             <key code="40" output="ਖ"/>
@@ -470,7 +470,7 @@
             <key code="1" output="s"/>
             <key code="2" output="d"/>
             <key code="3" output="f"/>
-            <key code="4" output="h"/>
+            <key code="4" output=""/>
             <key code="5" output="g"/>
             <key code="6" output="z"/>
             <key code="7" output="x"/>
@@ -578,7 +578,7 @@
             <key code="1" output="s"/>
             <key code="2" output="d"/>
             <key code="3" output="f"/>
-            <key code="4" output="h"/>
+            <key code="4" output="ਃ"/>
             <key code="5" output="g"/>
             <key code="6" output="z"/>
             <key code="7" output="x"/>
@@ -616,7 +616,7 @@
             <key code="40" output="k"/>
             <key code="41" output=";"/>
             <key code="42" output="\"/>
-            <key code="43" output=","/>
+            <key code="43" output="‌"/>
             <key code="44" output=""/>
             <key code="45" output="n"/>
             <key code="46" output="m"/>
@@ -724,7 +724,7 @@
             <key code="40" output="K"/>
             <key code="41" output=":"/>
             <key code="42" output="|"/>
-            <key code="43" output="&#x003C;"/>
+            <key code="43" output="‍"/>
             <key code="44" output="?"/>
             <key code="45" output="N"/>
             <key code="46" output="M"/>
@@ -1116,6 +1116,11 @@
         <action id="ਅ">
             <when state="none" next="ਅ"/>
         </action>
+        <action id="ਓ">
+            <when state="none" output="ਓ"/>
+            <when state="੧" output="ੴ"/>
+            <when state="੧ੳ" output="ੴ"/>
+        </action>
         <action id="ਾ">
             <when state="none" output="ਾ"/>
             <when state="ਅ" output="ਆ"/>
@@ -1134,10 +1139,12 @@
         </action>
         <action id="ੁ">
             <when state="none" output="ੁ"/>
+            <when state="੧ੳ" output="੧ਉ"/>
             <when state="ੳ" output="ਉ"/>
         </action>
         <action id="ੂ">
             <when state="none" output="ੂ"/>
+            <when state="੧ੳ" output="੧ਊ"/>
             <when state="ੳ" output="ਊ"/>
         </action>
         <action id="ੇ">
@@ -1150,11 +1157,15 @@
         </action>
         <action id="ੋ">
             <when state="none" output="ੋ"/>
+            <when state="੧ੳ" output="ੴ"/>
             <when state="ੳ" output="ਓ"/>
         </action>
         <action id="ੌ">
             <when state="none" output="ੌ"/>
             <when state="ਅ" output="ਔ"/>
+        </action>
+        <action id="੧">
+            <when state="none" next="੧"/>
         </action>
         <action id="ੲ">
             <when state="none" next="ੲ"/>
@@ -1164,10 +1175,14 @@
         </action>
         <action id="ੳ 1">
             <when state="none" next="ੳ"/>
+            <when state="੧" next="੧ੳ"/>
+            <when state="੧ੳ" output="ੳ"/>
         </action>
     </actions>
     <terminators>
         <when state="ਅ" output="ਅ"/>
+        <when state="੧" output="੧"/>
+        <when state="੧ੳ" output="੧ੳ"/>
         <when state="ੲ" output="ੲ"/>
         <when state="ੳ" output="ੳ"/>
     </terminators>
