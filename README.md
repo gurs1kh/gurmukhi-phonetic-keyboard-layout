@@ -3,8 +3,7 @@
 Allows you to type in Unicode Gurmukhi using the key mappings for the Gurbani Akhar fonts
 
 ## Key mappings
-![](img/keyboard1.png)
-![](img/keyboard2.png)
+![](img/keyboard-layout.png)
 
 ## Install (Mac)
 - [Use the installer](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic.dmg)
