@@ -7,6 +7,9 @@ Allows you to type in Unicode Gurmukhi using the key mappings for the Gurbani Ak
 ![](img/keyboard2.png)
 
 ## Install (Mac)
+- [Use the installer](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic.dmg)
+
+or
 - [Download the zip file](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic-mac.zip)
 - Extract the contents
 - Move `gurmukhi-phonetic.bundle` to `~/Library/Keyboard Layouts`
