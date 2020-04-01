@@ -6,13 +6,17 @@ Allows you to type in Unicode Gurmukhi using the key mappings for the Gurbani Ak
 ![](img/keyboard1.png)
 ![](img/keyboard2.png)
 
-## Install
-- [Download the zip file](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic.bundle.zip)
+## Install (Mac)
+- [Download the zip file](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic-mac.zip)
 - Extract the contents
 - Move `gurmukhi-phonetic.bundle` to `~/Library/Keyboard Layouts`
 
+## Install (Windows)
+- [Download the zip file](https://github.com/gurs1kh/gurmukhi-phonetic-keyboard-layout/raw/master/dist/gurmukhi-phonetic-windows.zip)
+- Extract the contents
+- Run `setup.exe`
 
-## Usage
+## Usage (Mac)
 - Go to `System Preferences > Keyboard > Input Sources`
 - Click the `+` button
 - Select `Punjabi` and then `Gurmukhi - Phonetic` (or just search for `Gurmukhi - Phonetic`)
