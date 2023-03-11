@@ -10,6 +10,10 @@
 	<string></string>
 	<key>KLInfo_Gurmukhi - Phonetic</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.gurmukhi-phonetic.gurmukhi-phonetic</string>
 		<key>TISIntendedLanguage</key>
